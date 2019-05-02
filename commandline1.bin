@@ -1,0 +1,12 @@
+mkdir new_dir
+cd new_dir
+touch new_file.rb
+rm new_file.rb
+cd ..
+rmdir new_dir
+
+mkdir new_dir
+cd new_dir
+touch new_file.rb
+cd ..
+rm -R new_dir
